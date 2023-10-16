@@ -5,31 +5,31 @@
 
 //---- HOMEWORK 3 ----
 // ---- 1
-const firstStr = prompt('Enter the first line');
-const secondStr = prompt('Enter the second line');
-const thirdStr = prompt('Enter the third line');
+// const firstStr = prompt('Enter the first line');
+// const secondStr = prompt('Enter the second line');
+// const thirdStr = prompt('Enter the third line');
 
-const result = alert(`${firstStr} ${secondStr} ${thirdStr}`);
+// const result = alert(`${firstStr} ${secondStr} ${thirdStr}`);
 
 //---- 2
-const numbers = prompt('Enter 5 numbers');
-let string = new String;
+// const numbers = prompt('Enter 5 numbers');
+// let string = new String;
 
-for (let i = 0; i < numbers.length; i++) {
-    string += numbers[i] + ' '; 
-}
+// for (let i = 0; i < numbers.length; i++) {
+//     string += numbers[i] + ' '; 
+// }
 
-alert(string);
+// alert(string);
 
 //---- HOMEWORK 4 ----
 
-// const firstValue = +prompt('Enter the first value');
-// const secondValue = +prompt('Enter the second value');
+const firstValue = +prompt('Enter the first value');
+const secondValue = +prompt('Enter the second value');
 
-// alert(`${firstValue} + ${secondValue} = ${firstValue + secondValue}`);
-// alert(`${firstValue} - ${secondValue} = ${firstValue - secondValue}`);
-// alert(`${firstValue} * ${secondValue} = ${firstValue * secondValue}`);
-// alert(`${firstValue} / ${secondValue} = ${firstValue / secondValue}`);
+alert(`${firstValue} + ${secondValue} = ${firstValue + secondValue}`);
+alert(`${firstValue} - ${secondValue} = ${firstValue - secondValue}`);
+alert(`${firstValue} * ${secondValue} = ${firstValue * secondValue}`);
+alert(`${firstValue} / ${secondValue} = ${firstValue / secondValue}`);
 
 //---- HOMEWORK 5 ----
 
