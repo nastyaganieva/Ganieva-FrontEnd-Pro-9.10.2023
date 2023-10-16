@@ -23,17 +23,17 @@
 
 //---- HOMEWORK 4 ----
 
-const firstValue = +prompt('Enter the first value');
-const secondValue = +prompt('Enter the second value');
+// const firstValue = +prompt('Enter the first value');
+// const secondValue = +prompt('Enter the second value');
 
-alert(`${firstValue} + ${secondValue} = ${firstValue + secondValue}`);
-alert(`${firstValue} - ${secondValue} = ${firstValue - secondValue}`);
-alert(`${firstValue} * ${secondValue} = ${firstValue * secondValue}`);
-alert(`${firstValue} / ${secondValue} = ${firstValue / secondValue}`);
+// alert(`${firstValue} + ${secondValue} = ${firstValue + secondValue}`);
+// alert(`${firstValue} - ${secondValue} = ${firstValue - secondValue}`);
+// alert(`${firstValue} * ${secondValue} = ${firstValue * secondValue}`);
+// alert(`${firstValue} / ${secondValue} = ${firstValue / secondValue}`);
 
 //---- HOMEWORK 5 ----
 
-// const hours = prompt('Enter the number of hours');
-// const seconds = hours * 3600;
+const hours = prompt('Enter the number of hours');
+const seconds = hours * 3600;
 
-// alert(`${seconds} seconds`);
+alert(`${seconds} seconds`);
